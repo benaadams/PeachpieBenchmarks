@@ -7,7 +7,7 @@ Following on from the announcement by [Peachpie](https://github.com/iolevel/peac
 [WordPress on .NET](http://www.peachpie.io/2017/02/wordpress-announcement.html); I was interesting in trying the 
 [TechEmpower plaintext benchmark](https://www.techempower.com/benchmarks/#section=data-r13&hw=ph&test=plaintext) against it.
 
-Results as follows
+Results as follows (Azure D15 v2 Win <-> Azure D15 v2 Linux)
 
 ```
 Pipeline depth: 16
