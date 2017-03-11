@@ -14,7 +14,7 @@ namespace Server
             var host = new WebHostBuilder()
                 .UseKestrel()
                 .UseWebRoot(root).UseContentRoot(root) // content root with wp static files
-                .UseUrls("http://*:5004/") 
+                .UseUrls("http://*:5004/") // seemed to be unhappy listening on different port
                 .UseStartup<Startup>() // initialization routine, see below
                 .Build();
 

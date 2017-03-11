@@ -3,9 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "server", "server\app.xproj", "{916208B3-E8F3-4785-9F70-B1A29AC846ED}"
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "server", "server\server.xproj", "{916208B3-E8F3-4785-9F70-B1A29AC846ED}"
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "website", "website\website.xproj", "{7BA39B04-8E76-4B2F-ABA5-5A90EDB0E2AC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution", "Solution", "{0951251F-984F-46C4-8A25-0A90FC94184B}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
